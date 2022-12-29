@@ -13,7 +13,7 @@
     { 
       "js": ["main/main.js"],
       "matches": ["https://www.netutor.co.kr/level_test/pages/result_report.asp?apSeq=*"]
-    }  
+    } 
   ],
   "action": {
     "default_popup": "brower_action/index.html",
