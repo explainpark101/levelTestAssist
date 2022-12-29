@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "author":"Park, JaeHyung",
+    "name": "EiE Level Test Assist",
+    "version": "2.1",
+    "description": "This is assistant for EiE LMS Junggye. This app needs authentication to activate it.",
+    "icons":{
+      "16":"logo/logo16.png",
+      "48":"logo/logo48.png",
+      "128":"logo/logo128.png"
+    },
+    "content_scripts": [
+    { 
+      "js": ["main/main.js"],
+      "matches": ["https://www.netutor.co.kr/level_test/pages/result_report.asp?apSeq=*"]
+    }  
+  ],
+  "action": {
+    "default_popup": "brower_action/index.html",
+    "default_title": "EiE LMS Assist"
+  }
+}
+  

@@ -1,0 +1,25 @@
+#eie-assist-url-header-button{
+    margin-top: 10px;
+}
+
+.side-nav-toggle{
+    margin-right:3em;
+
+}
+
+.pn-toolbar h3.pn-toolbar-title{
+    font-size: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+ }
+
+
+ .btn-eie-notice-list{
+    background-color: white;
+    height:fit-content;
+    min-height: unset !important;
+    height: 3em;
+    font-weight:700;
+    color:black;
+    
+ }
